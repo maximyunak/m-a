@@ -1,0 +1,171 @@
+/* ================================
+   Muller Font Family
+   ================================ */
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Fat.ttf') format('truetype');
+  font-weight: 950;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-FatItalic.ttf') format('truetype');
+  font-weight: 950;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Hairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-HairlineItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Heavy.ttf') format('truetype');
+  font-weight: 850;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-HeavyItalic.ttf') format('truetype');
+  font-weight: 850;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-Thin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-ThinItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-UltraBlack.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-UltraBlackItalic.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/Muller/Muller-Trial-UltraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
