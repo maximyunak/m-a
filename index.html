@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,6 +56,7 @@
             <div class="banner__btns">
               <button class="gradient-btn">To order</button>
               <a href="#menu" class="gradient-text outline-btn">Pizza-Menu</a>
+              <img src="images/banner_arrow.png" class="pc" alt="arrow" />
             </div>
           </div>
         </div>
@@ -63,6 +64,135 @@
           <img class="main-img" src="images/banner-img.png" alt="pizza" />
           <img src="images/pizza-banner.png" class="pizza" alt="pizza" />
           <img src="images/fries.png" class="fries" alt="fries" />
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="menu__container">
+        <h1 class="title">Menu</h1>
+        <div class="menu__filter">
+          <input type="radio" name="menu-tab" id="tab-all" checked hidden />
+          <label for="tab-all" class="base-btn">Show All</label>
+
+          <input type="radio" name="menu-tab" id="tab-meat" hidden />
+          <label for="tab-meat" class="base-btn">Meat</label>
+
+          <input type="radio" name="menu-tab" id="tab-veg" hidden />
+          <label for="tab-veg" class="base-btn">Vegetarian</label>
+
+          <input type="radio" name="menu-tab" id="tab-sea" hidden />
+          <label for="tab-sea" class="base-btn">Sea products</label>
+
+          <input type="radio" name="menu-tab" id="tab-mushroom" hidden />
+          <label for="tab-mushroom" class="base-btn">Mushroom</label>
+        </div>
+
+        <div class="pizzas__block">
+          <div class="card">
+            <img src="images/pizzas/italian.png" alt="Italian Pizza" class="pizza-img" />
+            <h2>Italian</h2>
+            <p class="filling">
+              Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+            </p>
+
+            <div class="sizes">
+              <button>22</button>
+              <button class="active">28</button>
+              <button>33</button>
+            </div>
+
+            <button class="ingredients">+ Ingredients</button>
+
+            <div class="price-section">
+              <span class="price">8,35 <span class="dollar">$</span></span>
+              <div class="quantity">
+                <button class="minus">−</button>
+                <span>1</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+
+            <button class="order">Order Now</button>
+          </div>
+          <div class="card">
+            <img src="images/pizzas/venecia.png" alt="Venecia Pizza" class="pizza-img" />
+            <h2>Venecia</h2>
+            <p class="filling">
+              Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+            </p>
+
+            <div class="sizes">
+              <button>22</button>
+              <button class="active">28</button>
+              <button>33</button>
+            </div>
+
+            <button class="ingredients">+ Ingredients</button>
+
+            <div class="price-section">
+              <span class="price">7,35 <span class="dollar">$</span></span>
+              <div class="quantity">
+                <button class="minus">−</button>
+                <span>1</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+
+            <button class="order">Order Now</button>
+          </div>
+          <div class="card">
+            <img src="images/pizzas/meat.png" alt="Meat Pizza" class="pizza-img" />
+            <h2>Meat</h2>
+            <p class="filling">
+              Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+            </p>
+
+            <div class="sizes">
+              <button>22</button>
+              <button class="active">28</button>
+              <button>33</button>
+            </div>
+
+            <button class="ingredients">+ Ingredients</button>
+
+            <div class="price-section">
+              <span class="price">9,35 <span class="dollar">$</span></span>
+              <div class="quantity">
+                <button class="minus">−</button>
+                <span>1</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+
+            <button class="order">Order Now</button>
+          </div>
+          <div class="card">
+            <img src="images/pizzas/cheese.png" alt="Cheese Pizza" class="pizza-img" />
+            <h2>Cheese</h2>
+            <p class="filling">
+              Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+            </p>
+
+            <div class="sizes">
+              <button>22</button>
+              <button class="active">28</button>
+              <button>33</button>
+            </div>
+
+            <button class="ingredients">+ Ingredients</button>
+
+            <div class="price-section">
+              <span class="price">8,35 <span class="dollar">$</span></span>
+              <div class="quantity">
+                <button class="minus">−</button>
+                <span>1</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+
+            <button class="order">Order Now</button>
+          </div>
         </div>
       </div>
     </section>
