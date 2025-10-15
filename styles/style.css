@@ -659,6 +659,79 @@ h2 {
   }
 }
 
+.about {
+  margin-top: 120px;
+  position: relative;
+
+  .bg-text {
+    left: 200px;
+    top: -100px;
+  }
+}
+.about__arrow {
+  align-self: center;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+
+  @media (max-width: 1400px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 130px;
+  }
+}
+
+.about__info {
+  max-width: 490px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    margin-bottom: 14px;
+  }
+
+  img {
+    margin-block: 22px;
+
+    @media (max-width: 1280px) {
+      width: 350px;
+      align-self: center;
+    }
+  }
+}
+
+.about__pizza {
+  position: relative;
+  display: inline;
+  .fries {
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    transform: translate(-50%, 50%);
+    @media (max-width: 1280px) {
+      width: 110px;
+    }
+  }
+
+  .pizza {
+    position: absolute;
+    top: 0px;
+    right: 12px;
+    transform: translate(50%, -50%);
+
+    @media (max-width: 1280px) {
+      width: 120px;
+    }
+  }
+  .main-pizza {
+    @media (max-width: 1280px) {
+      width: 256px;
+    }
+  }
+}
+
 footer {
   margin-top: 400px;
 }
