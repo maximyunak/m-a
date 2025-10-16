@@ -241,6 +241,15 @@ body {
   top: 0;
 }
 
+@media (max-width: 750px) {
+  .burger-toggle:checked ~ .header__btns .burger {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 1000;
+  }
+}
+
 /* banner */
 .banner {
   margin-top: 120px;
@@ -779,6 +788,7 @@ footer {
 @media (max-width: 760px) {
   footer {
     margin-top: 80px;
+    padding-block: 40px;
   }
 }
 
