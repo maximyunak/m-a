@@ -40,6 +40,10 @@ body {
   z-index: -1;
 }
 
+.symbols {
+  font-family: sans-serif;
+}
+
 .gradient-text {
   color: transparent;
   background: var(--gradient);
@@ -107,9 +111,7 @@ body {
 
   h1 {
     font-weight: 800;
-    font-style: ExtraBold;
     font-size: 34.06px;
-    line-height: 110.00000000000001%;
     letter-spacing: 0%;
 
     background: var(--gradient);
@@ -478,6 +480,9 @@ body {
   @media (max-width: 1280px) {
     grid-template-columns: repeat(2, minmax(197px, 297px));
   }
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .card {
@@ -651,6 +656,7 @@ h2 {
   width: 100%;
   height: 286px;
   border-radius: 34px;
+  text-align: center;
 
   @media (max-width: 680px) {
     font-size: 26px;
@@ -729,9 +735,248 @@ h2 {
     @media (max-width: 1280px) {
       width: 256px;
     }
+    @media (max-width: 400px) {
+      width: 200px;
+    }
   }
 }
 
+/* footer */
 footer {
-  margin-top: 400px;
+  margin-top: 130px;
+  padding-block: 70px;
+  background-color: #170700;
+
+  background: linear-gradient(
+    65.71deg,
+    #170a00 3.58%,
+    #170600 32.32%,
+    #0f0700 67.02%,
+    #170a00 95.04%
+  );
+
+  @media (max-width: 760px) {
+    margin-top: 80px;
+  }
+}
+
+.footer__container h1 {
+  font-size: 30px;
+  font-weight: normal;
+  font-weight: 800;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 84px;
+  flex-wrap: wrap;
+  @media (max-width: 760px) {
+    gap: 60px;
+  }
+}
+
+.footer__links {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 84px;
+  flex-wrap: wrap;
+
+  @media (max-width: 760px) {
+    grid-template-columns: repeat(2, auto);
+    gap: 27px;
+  }
+}
+
+.footer__links nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @media (max-width: 760px) {
+    gap: 10px;
+  }
+}
+
+.footer__links a {
+  color: #515151;
+  transition: 0.3s;
+  font-size: 18px;
+
+  @media (max-width: 760px) {
+    font-size: 14px;
+  }
+}
+
+.footer__links a:hover {
+  color: var(--gray);
+}
+
+.footer__links h3 {
+  margin-bottom: 7px;
+  color: var(--gray);
+  font-size: 20px;
+
+  @media (max-width: 760px) {
+    font-size: 15px;
+  }
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.footer__contacts a {
+  font-size: 20px;
+  transition: 0.3s;
+  @media (max-width: 760px) {
+    font-size: 15px;
+  }
+}
+.footer__contacts a:hover {
+  opacity: 0.8;
+}
+
+.social__media {
+  display: flex;
+  gap: 5px;
+}
+
+.social__media img {
+  transition: 0.3s;
+  cursor: pointer;
+}
+@media (max-width: 760px) {
+  .social__media img {
+    width: 19px;
+    height: 19px;
+  }
+}
+
+.social__media img:hover {
+  opacity: 0.8;
+}
+
+/* events */
+
+.events {
+  margin-top: 75px;
+}
+
+.events__card {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 87px 20px;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.events__card h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.events__card button {
+  width: 204px;
+}
+
+.events__row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.events__title {
+  max-width: 458px;
+  text-align: right;
+}
+
+.card-1 {
+  background-image: url(../images/events/1.png);
+  width: 367px;
+  height: 260px;
+  position: relative;
+}
+
+.card-2 {
+  background-image: url(../images/events/2.png);
+  width: 396px;
+  height: 260px;
+}
+.card-3 {
+  background-image: url(../images/events/3.png);
+  width: 615px;
+  height: 260px;
+}
+.card-4 {
+  background-image: url(../images/events/4.png);
+  width: 615px;
+  height: 260px;
+  position: relative;
+}
+.card-5 {
+  background-image: url(../images/events/5.png);
+  width: 401px;
+  height: 260px;
+  position: relative;
+}
+.card-6 {
+  background-image: url(../images/events/6.png);
+  width: 401px;
+  height: 260px;
+}
+.card-7 {
+  background-image: url(../images/events/7.png);
+  width: 401px;
+  height: 260px;
+}
+
+.egg {
+  position: absolute;
+  max-width: 218px;
+  left: 0;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+.buritto {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.coffee {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  transform: translate(-50%, 50%);
+}
+
+@media (max-width: 840px) {
+  .events__row {
+    flex-direction: column;
+  }
+  .events__card {
+    gap: 12px;
+    width: 100% !important;
+    height: 160px;
+  }
+  .events__title {
+    order: -1;
+    text-align: center;
+  }
+  .events__title {
+    font-size: 16px;
+  }
+  .events__card button {
+    width: 115px;
+  }
+  .events__row {
+    gap: 63px;
+    margin-bottom: 0;
+    margin-bottom: 63px;
+  }
 }
