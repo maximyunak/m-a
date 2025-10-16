@@ -24,7 +24,7 @@
 
         <div class="header__btns">
           <button class="gradient-btn login-btn">Log in</button>
-          <button class="gradient-btn"><img src="images/bag.png" alt="bag" /></button>
+          <button class="gradient-btn bag"><img src="images/bag.png" alt="bag" /></button>
           <label for="burger-toggle" class="burger">
             <span class="line"></span><span class="line"></span><span class="line"></span>
           </label>
@@ -93,6 +93,7 @@
         </div>
 
         <div class="pizzas__block">
+          <!-- Italian -->
           <div class="card">
             <img src="images/pizzas/italian.png" alt="Italian Pizza" class="pizza-img" />
             <h2>Italian</h2>
@@ -100,35 +101,38 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-italian" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-italian" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-italian" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">8,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-italian" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-italian" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-italian" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">8,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
 
+          <!-- Venecia -->
           <div class="card">
             <img src="images/pizzas/venecia.png" alt="Venecia Pizza" class="pizza-img" />
             <h2>Venecia</h2>
@@ -136,35 +140,38 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-venecia" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-venecia" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-venecia" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">7,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-venecia" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-venecia" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-venecia" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">7,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
 
+          <!-- Meat -->
           <div class="card">
             <img src="images/pizzas/meat.png" alt="Meat Pizza" class="pizza-img" />
             <h2>Meat</h2>
@@ -172,35 +179,38 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-meat" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-meat" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-meat" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">9,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-meat" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-meat" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-meat" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">9,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
 
+          <!-- Cheese -->
           <div class="card">
             <img src="images/pizzas/cheese.png" alt="Cheese Pizza" class="pizza-img" />
             <h2>Cheese</h2>
@@ -208,33 +218,35 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-cheese" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-cheese" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-cheese" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">8,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-cheese" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-cheese" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-cheese" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">8,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
         </div>
       </div>
@@ -246,6 +258,7 @@
         <h2 class="banner-text">most popular pizza</h2>
 
         <div class="pizzas__block">
+          <!-- Argentina -->
           <div class="card">
             <img src="images/pizzas/argentina.png" alt="Argentina Pizza" class="pizza-img" />
             <h2>Argentina</h2>
@@ -253,35 +266,38 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-argentina" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-argentina" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-argentina" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">7,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-argentina" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-argentina" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-argentina" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">7,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
 
+          <!-- Gribnaya -->
           <div class="card">
             <img src="images/pizzas/gribnaya.png" alt="Gribnaya Pizza" class="pizza-img" />
             <h2>Gribnaya</h2>
@@ -289,35 +305,38 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-gribnaya" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-gribnaya" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-gribnaya" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">6,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-gribnaya" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-gribnaya" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-gribnaya" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">6,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
 
+          <!-- Tomato -->
           <div class="card">
             <img src="images/pizzas/tomato.png" alt="Tomato Pizza" class="pizza-img" />
             <h2>Tomato</h2>
@@ -325,35 +344,38 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-tomato" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-tomato" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-tomato" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">7,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-tomato" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-tomato" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-tomato" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">7,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
 
+          <!-- Italian x2 -->
           <div class="card">
             <img src="images/pizzas/italianx2.png" alt="Italian x2 Pizza" class="pizza-img" />
             <h2>Italian x2</h2>
@@ -361,33 +383,35 @@
               Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
             </p>
 
-            <div class="sizes">
-              <label class="size-label">
-                <input type="radio" name="size-italianx2" value="22" />
-                <span>22</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-italianx2" value="28" checked />
-                <span>28</span>
-              </label>
-              <label class="size-label">
-                <input type="radio" name="size-italianx2" value="33" />
-                <span>33</span>
-              </label>
-            </div>
-
-            <button class="ingredients">+ Ingredients</button>
-
-            <div class="price-section">
-              <span class="price">8,35 <span class="dollar">$</span></span>
-              <div class="quantity">
-                <button class="minus">−</button>
-                <span>1</span>
-                <button class="plus">+</button>
+            <div class="info__width">
+              <div class="sizes">
+                <label class="size-label">
+                  <input type="radio" name="size-italianx2" value="22" />
+                  <span>22</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-italianx2" value="28" checked />
+                  <span>28</span>
+                </label>
+                <label class="size-label">
+                  <input type="radio" name="size-italianx2" value="33" />
+                  <span>33</span>
+                </label>
               </div>
-            </div>
 
-            <button class="order">Order Now</button>
+              <button class="outlined-btn"><span class="symbols">+</span> Ingredients</button>
+
+              <div class="price-section">
+                <span class="price">8,35 <span class="dollar">$</span></span>
+                <div class="quantity">
+                  <button class="minus">−</button>
+                  <span>1</span>
+                  <button class="plus">+</button>
+                </div>
+              </div>
+
+              <button class="gradient-btn">Order Now</button>
+            </div>
           </div>
         </div>
       </div>
